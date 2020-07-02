@@ -1,0 +1,35 @@
+<templateSet group="Flutter riverpod snippets">
+  <template name="consumer" value="Consumer((context, read) {&#10;    return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="computed" value="final $NAME$ = Computed((ref) {&#10;    return $CODE$;&#10;});" description="Creates a Computed of Riverpod" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="provider" value="final $NAME$ = $PREFIX$Provider&lt;$TYPE$&gt;((ref) {&#10;    return $CODE$;&#10;});" description="Create a Provider and lets you prefix it with whatever, for example Stream." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="family" value="final $NAME$ = $PREFIX$Family&lt;$T1$, $T2$&gt;((read, $T22$) {&#10;    return $CODE$;&#10;});" description="Create a Family provider and lets you prefix it with whatever, for example Computed." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="T1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="T2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="T22" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

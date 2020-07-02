@@ -1,0 +1,15 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/tbm98/dev/intellij_project/flutter-riverpod-snippets/.idea/workspace.xml" timestamp="1593680591821" />
+    <file path="/Users/tbm98/dev/intellij_project/flutter-riverpod-snippets/flutter-riverpod-snippets.iml" timestamp="1593676088289" />
+    <file path="/Users/tbm98/dev/intellij_project/flutter-riverpod-snippets/.idea/modules.xml" timestamp="1593676088300" />
+    <file path="/Users/tbm98/dev/intellij_project/flutter-riverpod-snippets/.idea/misc.xml" timestamp="1593676088296" />
+  </project-files>
+</conversion>

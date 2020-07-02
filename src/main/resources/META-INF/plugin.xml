@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>org.tbm98.flutter-riverpod-snippets</id>
+    <name>Flutter riverpod snippets</name>
+    <vendor email="tbm98.dev@gmail.com" url="http://www.tbm98.github.io">tbm98</vendor>
+
+    <description><![CDATA[
+    The snippets makes using flutter riverpod more simple.
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <defaultLiveTemplates file="/liveTemplates/Flutter_riverpod_snippets.xml"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
