@@ -1,9 +1,0 @@
-<project>
-  <component name="ExternalProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/flutter-riverpod-snippets.iml" filepath="$PROJECT_DIR$/.idea/flutter-riverpod-snippets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter-riverpod-snippets.main.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter-riverpod-snippets.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flutter-riverpod-snippets.test.iml" filepath="$PROJECT_DIR$/.idea/modules/flutter-riverpod-snippets.test.iml" />
-    </modules>
-  </component>
-</project>
