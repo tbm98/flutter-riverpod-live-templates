@@ -2,7 +2,7 @@
     <id>org.tbm98.flutter-riverpod-snippets</id>
     <name>Flutter riverpod snippets</name>
     <vendor email="tbm98.dev@gmail.com" url="http://www.tbm98.github.io">tbm98</vendor>
-
+    <idea-version since-build="193"/>
     <description><![CDATA[
     The snippets makes using flutter riverpod more simple.
     ]]></description>

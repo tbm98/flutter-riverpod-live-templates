@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'org.tbm98'
-version '0.2'
+version '0.3'
 
 repositories {
     mavenCentral()
@@ -20,6 +20,7 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
+      0.3: Support IntelliJ IDEA 2019.3 or higher, Android Studio 4.0 or higher.<br>
       0.2: Change intellij version to '2019.3.3' to match witn AS 4.0.<br>
       0.1: Init release"""
 }
