@@ -15,6 +15,4 @@ snippets such as `computed` and `provider`.
 
 ## Requirements
 
-Android Studio: 4.0
-
-IntelliJ IDEA: 2020.1.2
+IntelliJ: since-build: 193 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)

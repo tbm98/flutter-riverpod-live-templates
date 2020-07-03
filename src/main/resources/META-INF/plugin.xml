@@ -5,7 +5,11 @@
     <idea-version since-build="193"/>
     <description><![CDATA[
     The snippets makes using flutter riverpod more simple.
+    It support auto generate some snippets while developers coding in Flutter project and them use Flutter riverpod package.
     ]]></description>
+
+    <version>0.4</version>
+    <change-notes>Update version for support IntelliJ IDEA 2019.3 or higher, Android Studio 4.0 or higher.</change-notes>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'org.tbm98'
-version '0.3'
+version '0.4'
 
 repositories {
     mavenCentral()
@@ -15,9 +15,9 @@ dependencies {
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version '2020.1.2'
-}
+//intellij {
+//    version '2020.1.2'
+//}
 patchPluginXml {
     changeNotes """
       0.3: Support IntelliJ IDEA 2019.3 or higher, Android Studio 4.0 or higher.<br>
