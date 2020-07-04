@@ -1,14 +1,14 @@
 <idea-plugin>
     <id>org.tbm98.flutter-riverpod-snippets</id>
     <name>Flutter riverpod snippets</name>
-    <vendor email="tbm98.dev@gmail.com" url="http://www.tbm98.github.io">tbm98</vendor>
+    <vendor email="tbm98.dev@gmail.com" url="http://tbm98.github.io">tbm98</vendor>
     <idea-version since-build="193"/>
     <description><![CDATA[
     The snippets makes using flutter riverpod more simple.
     It support auto generate some snippets while developers coding in Flutter project and them use Flutter riverpod package.
     ]]></description>
 
-    <version>0.5</version>
+    <version>0.6</version>
     <change-notes>Update version for support IntelliJ IDEA 2019.3 or higher, Android Studio 4.0 or higher.</change-notes>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
