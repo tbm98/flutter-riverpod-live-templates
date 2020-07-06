@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Flutter riverpod snippets">
   <template name="consumer" value="Consumer((context, read) {&#10;    return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />

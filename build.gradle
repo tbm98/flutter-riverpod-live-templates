@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'org.tbm98'
-//version '0.4'
+//version '0.7'
 
 repositories {
     mavenCentral()
@@ -16,10 +16,13 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 //intellij {
-//    version '2020.1.2'
+//    version idead
 //}
 patchPluginXml {
+
+    sinceBuild "181"
     changeNotes """
+      0.7: Change since-build down to 181.<br>
       0.6: Update vendor.<br>
       0.5: Making the initial provider name Provider so that people can simply type name for nameProvider, similar for family, with nameFamily.<br>
       0.4: Support IntelliJ since-build: 193.<br>
