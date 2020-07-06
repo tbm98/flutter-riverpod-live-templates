@@ -15,4 +15,4 @@ snippets such as `computed` and `provider`.
 
 ## Requirements
 
-IntelliJ: since-build: 193 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
+IntelliJ based: since-build: 181 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
