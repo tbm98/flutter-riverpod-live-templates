@@ -22,6 +22,7 @@ patchPluginXml {
 
     sinceBuild "181"
     changeNotes """
+      1.0: Add ChangeNotifierProvider support.<br>
       0.9: Change scope of template to only TOP-LEVEL.<br>
       0.8: Support Riverpod version 0.6.0.<br>
       0.7: Change since-build down to 181.<br>

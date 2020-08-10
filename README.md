@@ -9,6 +9,8 @@ snippets such as `computed` and `provider`.
 | Shortcut   |      Description      |
 |----------|:-------------|
 | consumer |  Creates a Consumer widget to obtain a Provider of Riverpod. |
+| changenotifierprovider |  Creates a ChangeNotifierProvider of Riverpod. |
+| changenotifierproviderfamily |  Creates a ChangeNotifierProvider.family of Riverpod. |
 | provider | Create a Provider of RiverPod. |
 | providerfamily | Create a Provider.family of RiverPod. |
 | futureprovider | Create a FutureProvider of Riverpod. |

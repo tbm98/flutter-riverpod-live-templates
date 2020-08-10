@@ -103,4 +103,21 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="changenotifierprovider" value="final $name$Provider = ChangeNotifierProvider((ref) =&gt; $code$);&#10;" description="Create ChangeNotifierProvider template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="changenotifierproviderfamily" value="final $name$Provider = ChangeNotifierProvider.family&lt;$A$, $B$&gt;((ref, $b$) {&#10;  $code$&#10;});" description="Create ChangeNotifierProvider.family template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="B" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
 </templateSet>
