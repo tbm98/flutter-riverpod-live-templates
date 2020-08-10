@@ -8,15 +8,17 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="DART" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
   </template>
   <template name="futureprovider" value="final $name$Provider = FutureProvider&lt;$type$&gt;((ref) async {&#10;  return $result$;&#10;});" description="FutureProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="futureproviderfamily" value="final $name$Provider = FutureProvider.family&lt;$A$, $B$&gt;((ref, $b$) async {&#10;  return $code$;&#10;});" description="FutureProvider.family template" toReformat="false" toShortenFQNames="true">
@@ -26,8 +28,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="streamprovider" value="final $name$Provider = StreamProvider&lt;$type$&gt;((ref) async* {&#10;  $code$&#10;});" description="StreamProvider template" toReformat="false" toShortenFQNames="true">
@@ -35,8 +36,7 @@
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="streamproviderfamily" value="final $name$Provider = StreamProvider.family&lt;$A$, $B$&gt;((ref, $b$) async* {&#10;  $code$&#10;});" description="StreamProvider.family template" toReformat="false" toShortenFQNames="true">
@@ -46,8 +46,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="providerfamily" value="final $name$Provider = Provider.family&lt;$A$, $B$&gt;((ref, $b$) {&#10;  return $code$;&#10;});" description="Provider.family template" toReformat="false" toShortenFQNames="true">
@@ -57,8 +56,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;(($a$){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
@@ -67,16 +65,14 @@
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="statenotifierprovider" value="final $name$Provider = StateNotifierProvider((ref) =&gt; $code$);&#10;" description="StateNotifierProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="statenotifierproviderfamily" value="final $name$Provider = StateNotifierProvider.family&lt;$A$, $B$&gt;((ref, $b$) {&#10;  $code$&#10;});" description="StateNotifierProvider.family template" toReformat="false" toShortenFQNames="true">
@@ -86,8 +82,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="stateprovider" value="final $name$Provider = StateProvider&lt;$type$&gt;((ref) =&gt; $code$);&#10;" description="StateProvider template" toReformat="false" toShortenFQNames="true">
@@ -95,8 +90,7 @@
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="stateproviderfamily" value="final $name$Provider = StateProvider.family&lt;$A$, $B$&gt;((ref, $b$) {&#10;  $code$&#10;});" description="StateProvider.family template" toReformat="false" toShortenFQNames="true">
@@ -106,8 +100,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
-      <option name="DART_STATEMENT" value="false" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
 </templateSet>
