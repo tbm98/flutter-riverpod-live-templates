@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Flutter riverpod snippets">
-  <template name="consumer" value="Consumer((context, watch) {&#10;    return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
+  <template name="consumer" value="Consumer((ctx, watch) {&#10;  return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
   </template>
-  <template name="provider" value="final $NAME$Provider = Provider&lt;$TYPE$&gt;((ref) {&#10;    return $CODE$;&#10;});" description="Create a Provider and lets you prefix it with whatever, for example Stream." toReformat="false" toShortenFQNames="true">
+  <template name="provider" value="final $NAME$Provider = Provider&lt;$TYPE$&gt;((ref) {&#10;  return $CODE$;&#10;});" description="Create a Provider and lets you prefix it with whatever, for example Stream." toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="false" />
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
@@ -59,17 +60,17 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;(($a$){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
+  <template name="scopedprovider" value="final $name$ = ScopedProvider&lt;$type$&gt;((ref){&#10;  return $code$;&#10;});" description="ScopedProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="statenotifierprovider" value="final $name$Provider = StateNotifierProvider((ref) =&gt; $code$);&#10;" description="StateNotifierProvider template" toReformat="false" toShortenFQNames="true">
+  <template name="statenotifierprovider" value="final $name$Provider = StateNotifierProvider&lt;$type$&gt;((ref) {&#10;  $code$&#10;});&#10;" description="StateNotifierProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
@@ -85,7 +86,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="stateprovider" value="final $name$Provider = StateProvider&lt;$type$&gt;((ref) =&gt; $code$);&#10;" description="StateProvider template" toReformat="false" toShortenFQNames="true">
+  <template name="stateprovider" value="final $name$Provider = StateProvider&lt;$type$&gt;((ref) {&#10;  $code$&#10;});&#10;" description="StateProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
@@ -103,8 +104,9 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="changenotifierprovider" value="final $name$Provider = ChangeNotifierProvider((ref) =&gt; $code$);&#10;" description="Create ChangeNotifierProvider template" toReformat="false" toShortenFQNames="true">
+  <template name="changenotifierprovider" value="final $name$Provider = ChangeNotifierProvider&lt;$type$&gt;((ref) {&#10;  $code$&#10;});&#10;" description="Create ChangeNotifierProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
