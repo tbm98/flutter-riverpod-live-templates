@@ -1,7 +1,7 @@
 # Flutter Riverpod live templates
 
 [Flutter Riverpod](https://github.com/rrousselGit/river_pod) live templates is a way to enhance the way you use Riverpod. It contains a collection of different
-snippets such as `computed` and `provider`.
+snippets such as `family` or `provider`.
 
 
 ## Snippets
