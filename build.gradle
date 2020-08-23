@@ -22,6 +22,7 @@ patchPluginXml {
 
     sinceBuild "181"
     changeNotes """
+      1.2: Update syntax Consumer to match 0.7.0.<br>
       1.1: Update syntax.<br>
       1.0: Add ChangeNotifierProvider support.<br>
       0.9: Change scope of template to only TOP-LEVEL.<br>

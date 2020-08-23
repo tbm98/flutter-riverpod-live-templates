@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Flutter riverpod snippets">
-  <template name="consumer" value="Consumer((ctx, watch) {&#10;  return $CODE$;&#10;})" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
+  <template name="consumer" value="Consumer(&#10;  builder: (ctx, watch,child) {&#10;    return $CODE$;&#10;  },&#10;  child: $child$&#10;)" description="Create a Consumer widget of Riverpod" toReformat="false" toShortenFQNames="true">
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
