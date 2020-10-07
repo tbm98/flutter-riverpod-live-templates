@@ -69,6 +69,15 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="statenotifier" value="class $name$Notifier extends StateNotifier&lt;$result$&gt; {&#10;  $name$Notifier(): super($initialState$);&#10;&#10;  $END$&#10;}" description="Create StateNotifier template" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="initialState" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER_RIVERPOD_SNIPPETS" value="true" />
+    </context>
+  </template>
   <template name="statenotifierprovider" value="final $name$Provider = StateNotifierProvider&lt;$type$&gt;((ref) {&#10;  $code$&#10;});&#10;" description="StateNotifierProvider template" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
