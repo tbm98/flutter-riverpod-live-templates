@@ -18,6 +18,7 @@ snippets such as `family` or `provider`.
 | streamprovider |    Create a StreamProvider of Riverpod.   |
 | streamproviderfamily |    Create a StreamProvider.family of Riverpod.   |
 | scopedprovider |    Create a ScopedProvider of Riverpod.   |
+| statenotifier |  Creates a StateNotifier of state_provider. |
 | statenotifierprovider |  Creates a StateNotifierProvider of Riverpod. |
 | statenotifierproviderfamily |  Creates a StateNotifierProvider.family of Riverpod. |
 | stateprovider | Create a StateProvider of Riverpod. |
