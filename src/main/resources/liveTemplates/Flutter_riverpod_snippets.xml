@@ -74,7 +74,7 @@
     <variable name="result" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="initialState" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
       <option name="FLUTTER_RIVERPOD_SNIPPETS" value="true" />
     </context>
   </template>
