@@ -9,20 +9,20 @@ snippets such as `family` or `provider`.
 | Shortcut   |      Description      |
 |----------|:-------------|
 | consumer |  Creates a Consumer widget to obtain a Provider of Riverpod. |
-| changenotifierprovider |  Creates a ChangeNotifierProvider of Riverpod. |
-| changenotifierproviderfamily |  Creates a ChangeNotifierProvider.family of Riverpod. |
+| changeNotifierProvider |  Creates a ChangeNotifierProvider of Riverpod. |
+| changeNotifierProviderFamily |  Creates a ChangeNotifierProvider.family of Riverpod. |
 | provider | Create a Provider of RiverPod. |
-| providerfamily | Create a Provider.family of RiverPod. |
-| futureprovider | Create a FutureProvider of Riverpod. |
-| futureproviderfamily | Create a FutureProvider.family of Riverpod. |
-| streamprovider |    Create a StreamProvider of Riverpod.   |
-| streamproviderfamily |    Create a StreamProvider.family of Riverpod.   |
-| scopedprovider |    Create a ScopedProvider of Riverpod.   |
-| statenotifier |  Creates a StateNotifier of state_provider. |
-| statenotifierprovider |  Creates a StateNotifierProvider of Riverpod. |
-| statenotifierproviderfamily |  Creates a StateNotifierProvider.family of Riverpod. |
-| stateprovider | Create a StateProvider of Riverpod. |
-| stateproviderfamily | Create a StateProvider.family of Riverpod. |
+| providerFamily | Create a Provider.family of RiverPod. |
+| futureProvider | Create a FutureProvider of Riverpod. |
+| futureProviderFamily | Create a FutureProvider.family of Riverpod. |
+| streamProvider |    Create a StreamProvider of Riverpod.   |
+| streamProviderFamily |    Create a StreamProvider.family of Riverpod.   |
+| scopedProvider |    Create a ScopedProvider of Riverpod.   |
+| stateNotifier |  Creates a StateNotifier of state_provider. |
+| stateNotifierProvider |  Creates a StateNotifierProvider of Riverpod. |
+| stateNotifierProviderFamily |  Creates a StateNotifierProvider.family of Riverpod. |
+| stateProvider | Create a StateProvider of Riverpod. |
+| stateProviderFamily | Create a StateProvider.family of Riverpod. |
 
 ## Requirements
 
