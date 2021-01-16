@@ -2,7 +2,7 @@
     <id>org.tbm98.flutter-riverpod-snippets</id>
     <name>Flutter riverpod snippets</name>
     <vendor email="tbm98.dev@gmail.com" url="http://tbm98.github.io">tbm98</vendor>
-
+    <idea-version since-build="181.0" />
     <description><![CDATA[
     The snippets makes using flutter riverpod more simple.
     It support auto generate some snippets while developers coding in Flutter project and them use Flutter riverpod package.
@@ -14,7 +14,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <defaultLiveTemplatesProvider implementation="FlutterTemplateProvider" />
+        <defaultLiveTemplates file="/liveTemplates/Flutter_riverpod_snippets.xml"/>
         <liveTemplateContext implementation="FlutterContext" />
     </extensions>
 
