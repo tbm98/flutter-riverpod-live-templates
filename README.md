@@ -26,7 +26,7 @@ snippets such as `family` or `provider`.
 
 ## Requirements
 
-IntelliJ based: since-build: 181 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
+IntelliJ based: since-build: 202.5103.13 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
 
 
 [Riverpod]: https://github.com/rrousselGit/river_podRiverpod
