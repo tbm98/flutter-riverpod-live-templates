@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>io.github.tbm98.flutter_generator_snippets</id>
-    <name>Flutter Generator Snippets</name>
+    <id>io.github.tbm98.flutter_riverpod_snippets</id>
+    <name>Flutter Riverpod Snippets</name>
     <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
     <!-- Product and plugin compatibility requirements -->
