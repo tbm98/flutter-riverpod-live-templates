@@ -1,24 +1,21 @@
 <idea-plugin>
-    <id>org.tbm98.flutter-riverpod-snippets</id>
-    <name>Flutter Riverpod Snippets</name>
-    <vendor email="tbm98.dev@gmail.com" url="http://tbm98.github.io">tbm98</vendor>
-    <idea-version since-build="202.5103.13" />
-    <description><![CDATA[
-    The snippets makes using flutter riverpod more simple.
-    It support auto generate some snippets while developers coding in Flutter project and them use Flutter riverpod package.
-    ]]></description>
+    <id>io.github.tbm98.flutter_generator_snippets</id>
+    <name>Flutter Generator Snippets</name>
+    <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
-    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
+    <!-- Product and plugin compatibility requirements -->
+    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <applicationService serviceImplementation="dev.tbm98.flutterriverpodsnippets.services.MyApplicationService"/>
+        <projectService serviceImplementation="dev.tbm98.flutterriverpodsnippets.services.MyProjectService"/>
         <defaultLiveTemplates file="/liveTemplates/Flutter_riverpod_snippets.xml"/>
-        <liveTemplateContext implementation="FlutterContext" />
+        <liveTemplateContext implementation="dev.tbm98.flutterriverpodsnippets.FlutterContext" />
     </extensions>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+    <applicationListeners>
+        <listener class="dev.tbm98.flutterriverpodsnippets.listeners.MyProjectManagerListener"
+                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    </applicationListeners>
 </idea-plugin>

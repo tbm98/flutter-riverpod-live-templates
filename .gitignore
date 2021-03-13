@@ -1,4 +1,4 @@
-build
-.idea
 .gradle
+.idea
+build
 .DS_Store
