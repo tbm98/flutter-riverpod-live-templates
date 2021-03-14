@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-## [Unreleased]
+## [Latest release]
 ## [1.6.2]
 - improve code base
 - more
