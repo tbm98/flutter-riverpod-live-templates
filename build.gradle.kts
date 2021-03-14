@@ -52,6 +52,7 @@ changelog {
     version = properties("pluginVersion")
     closure { "[$version] - ${date()}" }
     itemPrefix = "-"
+    unreleasedTerm = "[Latest release]"
     groups = emptyList()
 }
 
