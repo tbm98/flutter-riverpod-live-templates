@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>io.github.tbm98.flutter_riverpod_snippets</id>
+    <id>org.tbm98.flutter-riverpod-snippets</id>
     <name>Flutter Riverpod Snippets</name>
     <vendor email="tbm98.dev@gmail.com" url="https://tbm98.dev">tbm98</vendor>
 
