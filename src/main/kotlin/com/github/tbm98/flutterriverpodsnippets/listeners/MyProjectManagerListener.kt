@@ -1,9 +1,9 @@
-package dev.tbm98.flutterriverpodsnippets.listeners
+package com.github.tbm98.testplugin.listeners
 
+import com.github.tbm98.testplugin.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import dev.tbm98.flutterriverpodsnippets.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

@@ -1,4 +1,4 @@
-package dev.tbm98.flutterriverpodsnippets
+package com.github.tbm98.testplugin
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

@@ -1,7 +1,7 @@
-package dev.tbm98.flutterriverpodsnippets.services
+package com.github.tbm98.testplugin.services
 
+import com.github.tbm98.testplugin.MyBundle
 import com.intellij.openapi.project.Project
-import dev.tbm98.flutterriverpodsnippets.MyBundle
 
 class MyProjectService(project: Project) {
 

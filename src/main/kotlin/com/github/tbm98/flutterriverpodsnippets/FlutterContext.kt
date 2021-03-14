@@ -1,4 +1,4 @@
-package dev.tbm98.flutterriverpodsnippets
+package com.github.tbm98.flutterriverpodsnippets
 
 import com.intellij.codeInsight.template.TemplateActionContext
 import com.intellij.codeInsight.template.TemplateContextType

@@ -1,6 +1,6 @@
-package dev.tbm98.flutterriverpodsnippets.services
+package com.github.tbm98.testplugin.services
 
-import dev.tbm98.flutterriverpodsnippets.MyBundle
+import com.github.tbm98.testplugin.MyBundle
 
 class MyApplicationService {
 
