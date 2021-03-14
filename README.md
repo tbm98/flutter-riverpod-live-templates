@@ -7,15 +7,11 @@ snippets such as `family` or `provider`.
 [![Version](https://img.shields.io/jetbrains/plugin/v/14641.svg)](https://plugins.jetbrains.com/plugin/14641)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/14641.svg)](https://plugins.jetbrains.com/plugin/14641)
 
-## Template ToDo list
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-
 ## Installation
 
 - Using IDE built-in plugin system:
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "flutter_riverpod_snippets"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "flutter riverpod snippets"</kbd> >
   <kbd>Install Plugin</kbd>
 
 - Manually:
