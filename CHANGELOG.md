@@ -1,6 +1,8 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+- remove redundant code,service
+
 ## [1.6.2]
 - improve code base
 - more
