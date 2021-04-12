@@ -1,6 +1,8 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+- support since-build: 201 and until-build: 211.*
+
 ## [1.6.3]
 - remove redundant code,service
 
