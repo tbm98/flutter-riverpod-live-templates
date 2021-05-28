@@ -2,6 +2,7 @@
 
 ## [Latest release]
 - support since-build: 201 and until-build: 211.*
+- sync with intellij-platform-plugin-template v0.10.0
 
 ## [1.6.3]
 - remove redundant code,service
