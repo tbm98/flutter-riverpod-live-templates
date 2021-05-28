@@ -1,6 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+## [1.8.0]
 
 - support since-build: 201 and until-build: 211.*
 - sync with intellij-platform-plugin-template v0.10.0
