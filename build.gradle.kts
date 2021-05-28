@@ -1,5 +1,4 @@
 import io.gitlab.arturbosch.detekt.Detekt
-import org.jetbrains.changelog.date
 import org.jetbrains.changelog.markdownToHTML
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -96,12 +95,14 @@ tasks {
         )
 
         // Get the latest available change notes from the changelog file
-        changeNotes.set(provider {
-            File("./CHANGELOG.md")
-                .readText().lines()
-                .joinToString("\n")
-                .run { markdownToHTML(this) }
-        })
+        changeNotes.set(
+            provider {
+                File("./CHANGELOG.md")
+                    .readText().lines()
+                    .joinToString("\n")
+                    .run { markdownToHTML(this) }
+            }
+        )
     }
 
     runPluginVerifier {
