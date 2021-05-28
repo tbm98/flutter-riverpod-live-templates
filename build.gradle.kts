@@ -48,6 +48,7 @@ intellij {
 // Read more: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
     version = properties("pluginVersion")
+    keepUnreleasedSection = true
     itemPrefix = "-"
     unreleasedTerm = "[Latest release]"
     groups = emptyList()
@@ -95,10 +96,12 @@ tasks {
         )
 
         // Get the latest available change notes from the changelog file
-        changeNotes.set(provider { File("./CHANGELOG.md")
-            .readText().lines()
-            .joinToString("\n")
-            .run { markdownToHTML(this) } })
+        changeNotes.set(provider {
+            File("./CHANGELOG.md")
+                .readText().lines()
+                .joinToString("\n")
+                .run { markdownToHTML(this) }
+        })
     }
 
     runPluginVerifier {
