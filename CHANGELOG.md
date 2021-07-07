@@ -1,6 +1,8 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+- support Riverpod 1.0.0
+
 ## [1.8.0]
 
 - support since-build: 201 and until-build: 211.*
