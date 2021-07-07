@@ -2,6 +2,10 @@
 
 ## [Latest release]
 
+- support Riverpod v1.0.0
+
+## [1.8.0]
+
 - support since-build: 201 and until-build: 211.*
 - sync with intellij-platform-plugin-template v0.10.0
 
