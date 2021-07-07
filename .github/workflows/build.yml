@@ -184,11 +184,11 @@ jobs:
           echo "::set-output name=pluginVerifierHomeDir::~/.pluginVerifier"
 
       # Cache Plugin Verifier IDEs
-      - name: Setup Plugin Verifier IDEs Cache
-        uses: actions/cache@v2.1.5
-        with:
-          path: ${{ steps.properties.outputs.pluginVerifierHomeDir }}/ides
-          key: ${{ runner.os }}-plugin-verifier-${{ steps.properties.outputs.ideVersions }}
+#      - name: Setup Plugin Verifier IDEs Cache
+#        uses: actions/cache@v2.1.5
+#        with:
+#          path: ${{ steps.properties.outputs.pluginVerifierHomeDir }}/ides
+#          key: ${{ runner.os }}-plugin-verifier-${{ steps.properties.outputs.ideVersions }}
 
       # Run IntelliJ Plugin Verifier action using GitHub Action
       - name: Verify Plugin
