@@ -2,6 +2,8 @@
 
 ## [Latest release]
 
+## [1.9.0]
+
 - support Riverpod v1.0.0
 
 ## [1.8.0]
