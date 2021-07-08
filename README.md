@@ -31,6 +31,7 @@ IntelliJ based: since-build: 202 [learn more](https://www.jetbrains.org/intellij
 |----------|:-------------|
 | consumer | New Consumer |
 | consumerWidget | New ConsumerWidget |
+| consumerStatefulWidget | New ConsumerStatefulWidget |
 | hookConsumer | New HookConsumer (must import [hooks_riverpod](https://pub.dev/packages/hooks_riverpod)) |
 | hookConsumerWidget | New HookConsumerWidget (must import [hooks_riverpod](https://pub.dev/packages/hooks_riverpod)) |
 | changeNotifierProvider* | New ChangeNotifierProvider |

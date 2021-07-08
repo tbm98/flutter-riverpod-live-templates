@@ -138,6 +138,12 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="consumerStatefulWidget" value="class $class_name$ extends ConsumerStatefulWidget {&#10;  const $class_name$({&#10;    Key? key,&#10;  }) : super(key: key);&#10;&#10;  @override&#10;  ConsumerState createState() =&gt; _$class_name$State();&#10;}&#10;&#10;class _$class_name$State extends ConsumerState&lt;$class_name$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container();&#10;  }&#10;}&#10;" description="New ConsumerStatefulWidget" toReformat="true" toShortenFQNames="true">
+    <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
   <template name="hookConsumerWidget" value="class $class_name$ extends HookConsumerWidget {&#10;  $class_name$({&#10;    Key? key,&#10;  }) : super(key: key);&#10;&#10;  @override&#10;  Widget build(BuildContext context, WidgetRef ref) {&#10;    return $code$;&#10;  }&#10;}" description="New HookConsumerWidget" toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
