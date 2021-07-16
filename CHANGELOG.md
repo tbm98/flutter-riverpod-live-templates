@@ -1,6 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+
+- update description
+
 ## [1.9.1]
 
 - add consumerStatefulWidget
