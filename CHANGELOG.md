@@ -1,6 +1,7 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+## [1.9.3]
 
 - enable `const` for create new Widget by default
 
