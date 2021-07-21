@@ -1,6 +1,9 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
 ## [Latest release]
+
+- enable `const` for create new Widget by default
+
 ## [1.9.2]
 
 - update description
