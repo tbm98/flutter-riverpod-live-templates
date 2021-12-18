@@ -7,7 +7,6 @@
 - Support 2021.3
 - Update template plugin
 
-## [1.9.3.2]
 ## [1.9.3]
 ### Changed
 - enable `const` for create new Widget by default
