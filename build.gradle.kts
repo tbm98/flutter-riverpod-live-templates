@@ -40,14 +40,6 @@ changelog {
     groups.set(emptyList())
 }
 
-// Configure Gradle Qodana Plugin - read more: https://github.com/JetBrains/gradle-qodana-plugin
-qodana {
-    cachePath.set(projectDir.resolve(".qodana").canonicalPath)
-    reportPath.set(projectDir.resolve("build/reports/inspections").canonicalPath)
-    saveReport.set(true)
-    showReport.set(System.getenv("QODANA_SHOW_REPORT")?.toBoolean() ?: false)
-}
-
 tasks {
     // Set the JVM compatibility versions
     properties("javaVersion").let {
@@ -79,23 +71,11 @@ tasks {
         )
 
         // Get the latest available change notes from the changelog file
-        changeNotes.set(
-            provider {
-                File("./CHANGELOG.md")
-                    .readText().lines()
-                    .joinToString("\n")
-                    .run { markdownToHTML(this) }
-            }
-        )
-    }
-
-    // Configure UI tests plugin
-    // Read more: https://github.com/JetBrains/intellij-ui-test-robot
-    runIdeForUiTests {
-        systemProperty("robot-server.port", "8082")
-        systemProperty("ide.mac.message.dialogs.as.sheets", "false")
-        systemProperty("jb.privacy.policy.text", "<!--999.999-->")
-        systemProperty("jb.consents.confirmation.enabled", "false")
+        changeNotes.set(provider {
+            changelog.run {
+                getOrNull(properties("pluginVersion")) ?: getLatest()
+            }.toHTML()
+        })
     }
 
     signPlugin {
