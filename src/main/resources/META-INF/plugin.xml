@@ -9,12 +9,5 @@
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Flutter_riverpod_snippets.xml"/>
         <liveTemplateContext implementation="com.github.tbm98.flutterriverpodsnippets.FlutterContext" />
-        <applicationService serviceImplementation="com.github.tbm98.testtt.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tbm98.testtt.services.MyProjectService"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.tbm98.testtt.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
