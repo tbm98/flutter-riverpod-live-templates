@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+### Changed
+- Support 2022.1
 
 ## [2.213.0]
 ### Changed
