@@ -22,7 +22,7 @@ snippets such as `family` or `provider`.
 ## Requirements
 
 [Riverpod]: https://github.com/rrousselGit/river_podRiverpod
-IntelliJ based: since-build: 202 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
+IntelliJ based: since-build: 203 [learn more](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
 
 
 ## Snippets
@@ -38,9 +38,8 @@ IntelliJ based: since-build: 202 [learn more](https://www.jetbrains.org/intellij
 | provider* | New Provider |
 | futureProvider* | New FutureProvider |
 | streamProvider* | New StreamProvider |
-| scopedProvider | New ScopedProvider |
 | stateNotifier | New StateNotifier in [state_provider](https://pub.dev/packages/state_notifier) |
 | stateNotifierProvider* | New StateNotifierProvider |
 | stateProvider* | New StateProvider |
 
-( * ) is suffix modifier, ex: AutoDispose, AutoDisposeFamily
+( * ) is suffix modifier, ex: autoDispose, family

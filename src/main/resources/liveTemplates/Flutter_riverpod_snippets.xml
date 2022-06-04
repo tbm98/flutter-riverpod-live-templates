@@ -1,5 +1,5 @@
 <templateSet group="Flutter riverpod snippets">
-  <template name="consumer" value="Consumer(&#10;  builder: (context, ref, child) {&#10;    return $CODE$;&#10;  },&#10;  child: $child$,&#10;)" description="New Consumer widget block" toReformat="true" toShortenFQNames="true">
+  <template name="consumer" value="Consumer(&#10;  builder: (context, ref, child) {&#10;    return $CODE$;&#10;  },&#10;)" description="New Consumer widget block" toReformat="true" toShortenFQNames="true">
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="child" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -55,14 +55,6 @@
     <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="B" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART_TOPLEVEL" value="true" />
-    </context>
-  </template>
-  <template name="scopedProvider" value="final $name$ = ScopedProvider&lt;$type$&gt;((ref){&#10;  return $code$;&#10;});" description="New ScopedProvider" toReformat="true" toShortenFQNames="true">
-    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />

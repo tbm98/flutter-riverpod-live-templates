@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- Remove scopedProvider
+- Remove child in Consumer block
 
 ## [2.221.0]
 ### Changed
