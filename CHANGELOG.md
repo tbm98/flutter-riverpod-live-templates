@@ -3,6 +3,7 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- Support 2022.2
 
 ## [2.221.1]
 - Remove scopedProvider
