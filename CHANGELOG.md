@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+## [2.223.0]
+- Support 2022.3
+- Update Gradle IntelliJ Plugin version 1.11.0
+- Update Constructor deprecated TemplateContextType
+
 ## [2.222.1]
 - Support 2022.2
 

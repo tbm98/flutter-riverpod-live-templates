@@ -8,6 +8,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Flutter_riverpod_snippets.xml"/>
-        <liveTemplateContext implementation="com.github.tbm98.flutterriverpodsnippets.FlutterContext" />
+        <liveTemplateContext implementation="com.github.tbm98.flutterriverpodsnippets.FlutterContext" contextId="FLUTTER_RIVERPOD_SNIPPETS"  />
     </extensions>
 </idea-plugin>
