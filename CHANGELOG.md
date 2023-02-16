@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- Support Riverpod generator.
+- Add when on AsyncValue
 
 ## [2.223.0]
 - Support 2022.3
