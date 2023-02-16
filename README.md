@@ -26,7 +26,16 @@ IntelliJ based: since-build: 203 [learn more](https://www.jetbrains.org/intellij
 
 
 ## Snippets
+### Generator syntax
+| Shortcut                                              | Description                                                                                    |
+|-------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| riverpodGeneratorFutureVariable                       | Create a future variable using generator                                                       |
+| riverpodGeneratorAsyncNotifierProvider                | Create a AsyncNotifierProvider using generator                                                 |
+| riverpodGeneratorVariable                             | Create a variable using generator                                                              |
+| riverpodGeneratorNotiferProvider                      | Create a NotifierProvider using generator                                                      |
 
+
+### Normal syntax
 | Shortcut   |      Description      |
 |----------|:-------------|
 | consumer | New Consumer |
