@@ -3,6 +3,8 @@
 # Plugin Changelog
 
 ## [Unreleased]
+
+## [2.223.2]
 - fix applicable contexts missing.
 
 ## [2.223.1]
