@@ -3,6 +3,7 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- fix applicable contexts missing.
 
 ## [2.223.1]
 - Support Riverpod generator.
