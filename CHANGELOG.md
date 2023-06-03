@@ -3,6 +3,7 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- support 232.*
 
 ## [2.231.1]
 - support 231.*
