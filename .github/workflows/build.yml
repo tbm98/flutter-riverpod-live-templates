@@ -72,6 +72,14 @@ jobs:
       - name: Run Tests
         run: ./gradlew test
 
+      - name: free disk
+        run: |
+          sudo swapoff -a
+          sudo rm -f /swapfile
+          sudo apt clean
+          docker rmi $(docker image ls -aq)
+          df -h
+
       # Collect Tests Result of failed tests
       - name: Collect Tests Result
         if: ${{ failure() }}
