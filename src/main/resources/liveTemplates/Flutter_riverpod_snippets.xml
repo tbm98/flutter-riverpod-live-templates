@@ -131,20 +131,20 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="consumerWidget" value="class $class_name$ extends ConsumerWidget {&#10;  const $class_name$({&#10;    Key? key,&#10;  }) : super(key: key);&#10;  &#10;  @override&#10;  Widget build(BuildContext context, WidgetRef ref) {&#10;    return $code$;&#10;  }&#10;}" description="New ConsumerWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
+  <template name="consumerWidget" value="class $class_name$ extends ConsumerWidget {&#10;  const $class_name$({super.key});&#10;  &#10;  @override&#10;  Widget build(BuildContext context, WidgetRef ref) {&#10;    return $code$;&#10;  }&#10;}" description="New ConsumerWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="consumerStatefulWidget" value="class $class_name$ extends ConsumerStatefulWidget {&#10;  const $class_name$({&#10;    Key? key,&#10;  }) : super(key: key);&#10;&#10;  @override&#10;  ConsumerState createState() =&gt; _$class_name$State();&#10;}&#10;&#10;class _$class_name$State extends ConsumerState&lt;$class_name$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container();&#10;  }&#10;}&#10;" description="New ConsumerStatefulWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
+  <template name="consumerStatefulWidget" value="class $class_name$ extends ConsumerStatefulWidget {&#10;  const $class_name$({super.key});&#10;&#10;  @override&#10;  ConsumerState createState() =&gt; _$class_name$State();&#10;}&#10;&#10;class _$class_name$State extends ConsumerState&lt;$class_name$&gt; {&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container();&#10;  }&#10;}&#10;" description="New ConsumerStatefulWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="hookConsumerWidget" value="class $class_name$ extends HookConsumerWidget {&#10;  const $class_name$({&#10;    Key? key,&#10;  }) : super(key: key);&#10;&#10;  @override&#10;  Widget build(BuildContext context, WidgetRef ref) {&#10;    return $code$;&#10;  }&#10;}" description="New HookConsumerWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
+  <template name="hookConsumerWidget" value="class $class_name$ extends HookConsumerWidget {&#10;  const $class_name$({super.key});&#10;&#10;  @override&#10;  Widget build(BuildContext context, WidgetRef ref) {&#10;    return $code$;&#10;  }&#10;}" description="New HookConsumerWidget (Riverpod)." toReformat="true" toShortenFQNames="true">
     <variable name="class_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -267,10 +267,11 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="riverpodGeneratorVariable" value="@riverpod&#10;$Type$ $NAME$($NAME2$Ref ref){&#10;    return $RETURN$;&#10;}" description="Create a variable using generator (Riverpod)." toReformat="true" toShortenFQNames="true">
+  <template name="riverpodGeneratorVariable" value="@riverpod&#10;$Type$ $NAME$($NAME2$Ref$GENERIC$ ref){&#10;    return $RETURN$;&#10;}" description="Create a variable using generator (Riverpod)." toReformat="true" toShortenFQNames="true">
     <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME2" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="GENERIC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
@@ -293,10 +294,11 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="riverpodGeneratorFutureVariable" value="@riverpod&#10;Future&lt;$Type$&gt; $NAME$($NAME2$Ref ref) async {&#10;    return $RETURN$;&#10;}" description="Create a future variable using generator (Riverpod)." toReformat="true" toShortenFQNames="true">
+  <template name="riverpodGeneratorFutureVariable" value="@riverpod&#10;Future&lt;$Type$&gt; $NAME$($NAME2$Ref$GENERIC$ ref) async {&#10;    return $RETURN$;&#10;}" description="Create a future variable using generator (Riverpod)." toReformat="true" toShortenFQNames="true">
     <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="NAME2" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="GENERIC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />

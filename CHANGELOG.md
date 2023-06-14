@@ -3,6 +3,7 @@
 # Plugin Changelog
 
 ## [Unreleased]
+- use super constructor
 - remove until build
 
 ## [2.232.0]
